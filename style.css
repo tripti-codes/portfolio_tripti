@@ -1,0 +1,264 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #160923;
+  }
+  
+  /* Navigation Bar */
+  
+  #home {
+    padding-bottom: 1cm;
+    margin-left:-1cm;
+    margin-right:-1cm;
+    margin-top:-1cm;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    height: 5mm;
+   }
+  
+  .topmenu {
+    color: gray;
+    margin: 5px;
+    padding: 20px;
+    font-size: 15px;
+    text-decoration:none;
+  }
+  
+  .topmenu:hover {
+    border: 1px solid #fff;
+    font-weight:bolder;
+    border-radius: 30px;
+    p
+    /* Add the styles here */
+  }
+  
+  .topdiv {
+    float: right;
+    padding-right: 1cm;
+    margin-top: -66px;
+  }
+  
+  /* Titles */
+  
+  h2 {
+    text-align: justify;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    color: #7600bc;
+    margin: 30px;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .introduction {
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    position: relative;
+  }
+  
+  /* Used in the About Me sections */
+  
+  .container {
+    display: flex;
+  }
+  
+  /* About Me */
+  
+.profile-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.profile h1 {
+  font-size: 45px;
+  color: #ffffff;
+  margin-top: 75px;
+  margin-left: 107px;
+  }
+  
+  #about-me p {
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+    margin-top: 45px;
+    margin-left: 107px;
+  }
+  
+  .profile_image img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 27px;
+  }
+  
+  /* Skills */
+  
+  .all_skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .skill {
+    border: 1px solid gray;
+    background-color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    box-shadow: 0 9px 10px gray;
+  }
+  
+  #skills h2 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 150px;
+  }
+
+  .skill img {
+    height: 35px;
+    align-items: center;
+  }
+  
+  .skills h6 {
+    align-items: center;
+    font-size: 40px;
+    margin-block-start: 8px;
+    
+  } 
+  
+  .skills p {
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+  } 
+  
+  .flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Projects */
+  
+  #projects h2 {
+    color: #fff;
+    font-size: 60px;
+    margin-top: 150px;
+  }
+  .projects-container {
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .projects-container hr {
+    border: 1px solid rgb(59, 59, 59);
+    width: 75%;
+    margin-left: 1.5cm;
+  }
+  
+  .project-card {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+  }
+  
+  .project-card h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  .project-card li {
+    color: gray;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  
+  /* Scroll to Top Button */
+  
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+
+  /* Recommendation Form */
+  
+  #recommendation-sec h2 {
+    color: #fff;
+    font-size:40px;
+    margin-top: 60px;
+  }
+
+  input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 10px;  
+    width:95%;
+    font-size: 16px;
+    
+  }
+  
+  fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 3px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 9px;
+  }
+
+  #new_recommendation {
+    font-size: 16px;
+    padding: 4px;
+  }
+
+
+  /* Buttons */
+  
+  button {
+    background-color: #160923;
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color:#fff;
+    border: 1px solid #160923;
+    color: #160923;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+  }
